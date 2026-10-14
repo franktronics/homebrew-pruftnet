@@ -1,16 +1,16 @@
 class PruftnetServerNightly < Formula
   desc "Pruftnet local web server (beta)"
   homepage "https://pruftnet.app"
-  version "0.2.1-nightly.20261009.30"
+  version "0.2.1-nightly.20261014.31"
   license "MIT"
   on_macos do
     on_arm do
-      url "https://github.com/franktronics/pruftnet.app/releases/download/v0.2.1-nightly.20261009.30/pruftnet-server-nightly-0.2.1-nightly.20261009.30-darwin-arm64.tar.gz"
-      sha256 "6ed030f04f6097727cdddb96c62feb151777a37e8083f1a2cfdf714c090ea239"
+      url "https://github.com/franktronics/pruftnet.app/releases/download/v0.2.1-nightly.20261014.31/pruftnet-server-nightly-0.2.1-nightly.20261014.31-darwin-arm64.tar.gz"
+      sha256 "4880e2666fc2516b2828a3fdb815e5ec17fdd38fa2da9bd48106aaa8aec7c267"
     end
     on_intel do
-      url "https://github.com/franktronics/pruftnet.app/releases/download/v0.2.1-nightly.20261009.30/pruftnet-server-nightly-0.2.1-nightly.20261009.30-darwin-x64.tar.gz"
-      sha256 "4c91bc9b2fa6acd87c1415a9fafa822fabb0a881fe81e00146cdcd78880fbb8f"
+      url "https://github.com/franktronics/pruftnet.app/releases/download/v0.2.1-nightly.20261014.31/pruftnet-server-nightly-0.2.1-nightly.20261014.31-darwin-x64.tar.gz"
+      sha256 "d30557f2145e5ad9c74f358e9f1b95db255995a4f239fc594429ae73cb012031"
     end
   end
   depends_on macos: :sequoia
@@ -31,6 +31,6 @@ class PruftnetServerNightly < Formula
     "Run \"pruftnet-nightly doctor\" to check capture permissions. Start in the background with: brew services start pruftnet-server-nightly"
   end
   test do
-    assert_match "0.2.1-nightly.20261009.30", shell_output("#{bin}/pruftnet-nightly --version")
+    assert_match "0.2.1-nightly.20261014.31", shell_output("#{bin}/pruftnet-nightly --version")
   end
 end

@@ -1,12 +1,12 @@
 cask "pruftnet-desktop-nightly" do
-  version "0.2.1-nightly.20261009.30"
+  version "0.2.1-nightly.20261014.31"
   on_arm do
-    url "https://github.com/franktronics/pruftnet.app/releases/download/v0.2.1-nightly.20261009.30/pruftnet-desktop-nightly-0.2.1-nightly.20261009.30-mac-arm64.dmg"
-    sha256 "a64c62594d2ca68e8c4c41b312e936c0cf40ec8de6a50696128f41048cd4b720"
+    url "https://github.com/franktronics/pruftnet.app/releases/download/v0.2.1-nightly.20261014.31/pruftnet-desktop-nightly-0.2.1-nightly.20261014.31-mac-arm64.dmg"
+    sha256 "755dce44f5a073b4d1f3d9b956b2e80b42a7a94d388321216219a8f99583dfab"
   end
   on_intel do
-    url "https://github.com/franktronics/pruftnet.app/releases/download/v0.2.1-nightly.20261009.30/pruftnet-desktop-nightly-0.2.1-nightly.20261009.30-mac-x64.dmg"
-    sha256 "e0d1378e7f6a31e928d16fbf8b99c60fc61c1d99ec607ebc73bd7f459b53570e"
+    url "https://github.com/franktronics/pruftnet.app/releases/download/v0.2.1-nightly.20261014.31/pruftnet-desktop-nightly-0.2.1-nightly.20261014.31-mac-x64.dmg"
+    sha256 "f9b9e382e680168e2c2d20fe13a3f6c590c45ebda69229b79b0b883fd3295261"
   end
   name "Pruftnet Nightly"
   desc "Network analysis software (beta)"
